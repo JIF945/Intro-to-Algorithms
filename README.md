@@ -1,4 +1,4 @@
-# Intro-to-Algorithms
+# Intro-to-Coding
 
 ## Table of contents 
 
