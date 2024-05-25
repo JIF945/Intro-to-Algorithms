@@ -40,6 +40,29 @@ A[i-1], A[i-2], A[i-3], etc moves one position to the right until it finds the p
 
 Termination property for insertion sort
 the loop variable i starts at 2 and increases by 1 in each iteration. once i's value exceeds n in line 1 the loop terminates. 
-the loop terminates once i equales n + 1. substituting n + 1 for i  in the loop invariant yields that the subaarray A[1:n] consists of the elements originally in A[1:n] but in sorted order. that means the algorithm is correct. 
+the loop terminates once i equales n + 1. substituting n + 1 for i  in the loop invariant yields that the subaarray A[1:n] consists of the elements originally in A[1:n] but in sorted order. that means the algorithm is correct.
 
+organize compound data into objects, which are composed of attributes.
+attributes are access using the syntax found in many object-oriented programming languages. object name followed by a dot followed by the attribute name. example object x has attribute f, we denote this attribute by x.f.
 
+pass paramenters to a procedure by value.
+
+a return statement immediatelly transfers control back to the point of call in the calling procedure. most return statements also take a value to pass back to the caller. 
+
+the boolean operators "and" and "or" are short circuiting. they evaluate the expression x and y by first evaluating x. If x evaluates to false, then the entire expression cannot evaluate to True and therefore y is not evaluated. 
+
+state a loop invariant for this procedure using initialization, Maintenance and Termination properties
+
+sum-array(A,n)
+    sum = 0
+    for i = 1 to n
+        sum = sum + A[i]
+    return sum
+
+2.2 analyzing algorithms
+ analyzing an algorithm has come to mean predicting the resources that the algorithm requires
+resources can be
+- memory
+- communication 
+- bandwidth
+- energy consumption.
