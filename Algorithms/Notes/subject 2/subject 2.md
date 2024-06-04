@@ -1,4 +1,4 @@
-2.1
+# 2.1
 numbers to be sorted are also known as keys-
 input comes in the form of an array
 keys associated with other data is called satellite data
@@ -59,10 +59,46 @@ sum-array(A,n)
         sum = sum + A[i]
     return sum
 
-2.2 analyzing algorithms
+# 2.2 analyzing algorithms
  analyzing an algorithm has come to mean predicting the resources that the algorithm requires
 resources can be
 - memory
 - communication 
 - bandwidth
-- energy consumption.
+- energy consumption
+Data types in RAM model are
+- integer
+- floating point
+- character
+The running time of an algorithm on a particular input is the number of instructions and data accesses excuted 
+
+![alt text](image.png)
+
+for inputs of a given size, an algorithms running time may depend on which input of that size is given. 
+
+# Exercises
+express the function n^3/1000 + 100n^2 - 100n +3 in terms of (theta) - notation 
+answer 
+ 
+ ```
+ (2) applied repeatedly tells us Θ(e) = Θ(max(n^3/1000 - 100n^2 - 100n + 3))
+ Applying rule (1) to each of these, this will equal Θ(max(n^3, n^2, n, 1))
+ Now we can apply rule (4) to see that Θ(1) < Θ(n) < Θ(n^2) < Θ(n^3):
+ So Θ(max(n^3, n^2, n, 1)) = Θ(n^3)
+ ```
+
+Consider sorting n  numbers stored in array A[1:n] by  first  finding  the  smallest element of A[1:n] and exchanging it with the element in A[1].  Then  find  the smallest element of  A[2:n] and exchange it with A[2].  Then  find  the  smallest element of A[3:n], and exchange it with A[3].  Continue in this manner for the first n - 1 elements of A.  Write pseudocode for this algorithm, which is known 
+as selection sort.  What loop invariant does this algorithm maintain?  Why does  it 
+need to run for only the first n - 1 elements, rather than for all n elements?  Give the worst-case  running  time of  selection  sort  in  ‚-notation.  Is  the  best-case  running  time any better?
+ 
+![alt text](image-1.png)
+
+Algorithm needs to run for only the first n - 1 elements rather then for all n elements because the last iteration will compare A[n] with the minimum elenet in A[1..n - 1] in line 4 and swap if necessary. Since that happens there is no need to continue the algorithm for all the way to the last element. 
+
+How can you modify any sorting algorithm to have a good best-case running time
+```
+reverse the sorting algorithm
+modify any algorithm to have a best case time complexity of 0(n) by adding a special case, that if the input matches theis special case- return a  cached hard cooded answer
+```
+
+# 2.3 Designing Algorithms 
