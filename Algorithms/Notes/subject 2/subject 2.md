@@ -102,3 +102,15 @@ modify any algorithm to have a best case time complexity of 0(n) by adding a spe
 ```
 
 # 2.3 Designing Algorithms 
+2.3.1
+ - Many usefull algorithms are recurive in structure: to solve a given problem, they recurse ( call themselves) one or more times to handle closely related subproblems. These algorithms typically follow the divide adn conquer method: they break the problem into several subproblems that are similar to the original problem but smaller in size.
+ - solve the subproblems recursively, 
+ - then combine these solutions to create a solution to the orginal problem
+ three characteristic steps
+ divide the problem into one or more subproblems that are smaller instances for the same problem 
+ conquer the subproblems by solving them recursively 
+ combine the subproblem solution fo form a solution to the original problem.
+
+ Merge (A,p,q.r)
+
+ 
