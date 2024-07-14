@@ -113,4 +113,10 @@ modify any algorithm to have a best case time complexity of 0(n) by adding a spe
 
  Merge (A,p,q.r)
 
- 
+ 2.3.1 
+ - when an algorithm contains a recursive call, you can often describe its running time by a recurrence equation or recurrence, which describes the overall running time on a problem of size N terms of the running time of the same algorithm on smaller inputs.
+
+![alt text](AnalysisSort.png)
+
+
+
