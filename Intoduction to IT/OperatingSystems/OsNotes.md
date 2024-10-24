@@ -14,4 +14,11 @@
     - Apple Ios. This is the mobile operating system developed by apple for use on Proprietary apple hardware. Apple regulates all mobile apps and services that can run on IOS
 
 ## Utility Software
-    
+    utility software extends the capabilities of an operating system. Utility software helps customize the operarting system function. For example, installation utility software consists of programs for performing activities that are fundamental to computer installation but not included in the operating system. Some examples of utility software include software to compress or decompress data, play multimedia presentations, and handle newtork commnications 
+
+## Kernel
+    The kernel is the internal part of an operating system. The Kernel contains the operating system compnents that perform the basic functions required by the computer installation. One such unit is the file manager whose function is to coordinate the machines storage. The file manager records of all the files stored in secondary storage, including where each file is stored, which user have access, and which portions of the storage are available for new files.
+
+## User interface
+    the user interface allows end users to communicate with the operatiing system. command-line interfaces (CLI) are a type of user interface that communicates with end user through textual messages using a keyboard and monitor. 
+    contemporary operating systems have graphical user interfaces (GUIs). GUI allow end users to issue commands through input devices such as mouses, keyboards, or touch screens. on a touch screen. on a touch screen a user can directly manipulate icons with their fingers or a stylus
