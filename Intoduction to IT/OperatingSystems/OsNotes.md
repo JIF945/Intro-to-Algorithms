@@ -1,4 +1,17 @@
 # Operating systems
+### Table of contents
+-   [Types of Operating systems](#types-of-operating-systems)
+-   [Operating systems](#operating-systems-1)
+-   [Operating systems for mobile Devices](#operating-systems-for-mobile-devices)
+-   []()
+-   []()
+-   []()
+-   []()
+-   []()
+-   []()
+-   []()
+-   []()
+-   []()
 
 ## Types of Operating Systems
     operating systems typically come in four categories: network operating systems, server operating systems, mobile operating systems, or personal computer operating systems. Many types of operating systems are available, each with different file structures and features. 
