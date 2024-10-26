@@ -20,3 +20,13 @@
     Mesh connects every device in a network to every other device. mesh networks enable redundancy while also introducing significantly more network traffic
     alternatively, a network could use a hybrid of these topologies. 
 ![alt text](Mesh-Topology.png "Screenshot")
+
+## Client/Server Model
+    The client/server Model is a popular convention used for interprocess communication. The Basic roles played by the process are categorized as either a client make requests or a server satisifying client request. an early application of the client/ server model appeared in networks connecting clusters of office with a single printer available to all computers. The printer (also known as the print server) is the server, and the machines are clients requesting printed documents. Early networking systems also used file servers that accepted request for company data that were centrally stored. 
+![alt text](Client-Server-Model.png "Screenshot")
+
+## Peer 2 Peer
+    peer-to-peer (P2P) is another model for interprocess communication. In this model, processers both request and provide service to each other. instant messaging and interactive games played by user on multiple machines are both examples of the P2P model. 
+
+![alt text](P2P.png "screenshot")
+
